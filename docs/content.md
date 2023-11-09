@@ -15,8 +15,10 @@ An exercise in creating a photorealistic rendering of a portrait. I chose to hig
 An exercise in creating a photorealistic rendering of a 3D object in 2D.
 #### Panton Chair
 A poster advertising a hypothetical exhibition about the revolutionary stacking chair by Verner Panton. The design uses the motion of the upside-down form of the chair to draw the viewer’s eye towards the exhibition information.
-#### Washington Metro Map
-A project aiming to design a map showing all current and future passenger rail services in the Washington, DC/Baltimore region in a clean, easy to understand manner. While based on Lance Wyman’s original Washington Metro map and my own artistic style, I heavily drew inspiration from Massimo Vignelli’s New York Subway map.
+#### Transit Maps
+This project started with a challenge to design a subway map showing all current and future passenger rail services in the Washington, DC/Baltimore region in a clean, unified and easy to understand manner. While based on Lance Wyman’s original Washington Metro map and my own artistic style, I heavily drew inspiration from Massimo Vignelli’s New York Subway map.
+
+The success with my Washington map inspired me to create a map for the Philadelphia region in the same style. With additional inspiration coming from SEPTA's upcoming rebrand, this map proved extra challenging due to the numerous Regional Rail lines running through the core of the city. While this project is essentially completed, I do hope to revisit this sometime soon, especially to find a way to show the B line's service patterns in a way that stays within the style limitations already in use.
 ### Web and App Design
 #### uNav
 A redesign and user experience animation for a new navigation app. My goal was to combine the features of Google Maps and Citymapper into one app, creating an all-in-one navigation and travel utility.
