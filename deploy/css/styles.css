@@ -374,6 +374,18 @@ template {
 /* =============
     Typography
 ============= */
+a:link {
+  color: var(--accentBlue60);
+}
+
+a:visited {
+  color: var(--accentBlue50);
+}
+
+a:active, a:hover {
+  color: var(--accentBlue70);
+}
+
 /* =============
     Header
 ============= */
