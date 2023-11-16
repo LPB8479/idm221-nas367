@@ -1,10 +1,10 @@
 /* =============
     Base
 ============= */
-ul{
+* {box-sizing: border-box;}
+
+ul.blankList{
     margin: 0;
     padding: 0;
-}
-ul.blankList{
-    li{list-style: none;}
+    list-style: none;
 }
