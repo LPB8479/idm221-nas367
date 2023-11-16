@@ -1,3 +1,37 @@
+/* =============
+    Variables
+============= */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* =============
+    Buttons
+============= */
+/* =============
+    Forms
+============= */
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+}
+
+/* =============
+    Navigation
+============= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -310,3 +344,16 @@ template {
 [hidden] {
   display: none;
 }
+
+/* =============
+    Base
+============= */
+/* =============
+    Typography
+============= */
+/* =============
+    Header
+============= */
+/* =============
+    Footer
+============= */

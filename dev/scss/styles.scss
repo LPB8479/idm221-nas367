@@ -1,1 +1,16 @@
-@import "plugins/normalize.scss";
+@charset 'utf-8';
+
+// Components Styles
+@import "components/_variables";
+@import "components/_buttons";
+@import "components/_forms";
+@import "components/_navigation";
+
+// Base Styles
+@import "base/_normalize";
+@import "base/_base";
+@import "base/_typography";
+
+// Layout Styles
+@import "layout/_header";
+@import "layout/_footer";
