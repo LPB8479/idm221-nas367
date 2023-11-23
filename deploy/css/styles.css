@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../fonts/OpenSans-VariableFont.ttf);
+}
 /* =============
     Variables
 ============= */
@@ -27,34 +31,10 @@
   --accentBlue70: #7d8de8;
   --accentBlue80: #a8b3f0;
   --accentBlue90: #d4d9f7;
+  /*other*/
+  --rhythm: 0.5rem;
 }
 
-/* =============
-    Buttons
-============= */
-/* =============
-    Forms
-============= */
-[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-input[type=text],
-input[type=email],
-input[type=password],
-textarea {
-  -webkit-appearance: none;
-}
-
-/* =============
-    Navigation
-============= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -401,56 +381,28 @@ a:active, a:hover {
   color: var(--accentBlue70);
 }
 
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Medium"), local("OpenSans-Medium"), url("../fonts/OpenSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
 p {
-  font: normal normal 16pt "Open Sans";
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
 }
 
 h1 {
-  font: ExtraBold 28pt "Open Sans";
+  font-family: "Open Sans";
+  font-size: 28pt;
+  font-weight: 800;
 }
 
 h2 {
-  font: Bold 20pt "Open Sans";
+  font-family: "Open Sans";
+  font-size: 20pt;
+  font-weight: 700;
 }
 
 h3 {
-  font: SemiBold 16pt "Open Sans";
+  font-family: "Open Sans";
+  font-size: 16pt;
+  font-weight: 600;
 }
 
 /* =============
