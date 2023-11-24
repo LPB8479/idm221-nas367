@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Open Sans", sans-serif;
-  src: url(../fonts/OpenSans-VariableFont.ttf);
+  src: url(../../fonts/OpenSans-VariableFont.ttf);
 }
 /* =============
     Variables
@@ -383,25 +383,25 @@ a:active, a:hover {
 
 p {
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 1 rem;
   font-weight: 400;
 }
 
 h1 {
   font-family: "Open Sans";
-  font-size: 28pt;
+  font-size: 1.75 rem;
   font-weight: 800;
 }
 
 h2 {
   font-family: "Open Sans";
-  font-size: 20pt;
+  font-size: 1.25 rem;
   font-weight: 700;
 }
 
 h3 {
   font-family: "Open Sans";
-  font-size: 16pt;
+  font-size: 1 rem;
   font-weight: 600;
 }
 
