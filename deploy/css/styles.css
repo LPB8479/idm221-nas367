@@ -397,8 +397,8 @@ p.year {
 
 h1 {
   font-family: "Open Sans";
-  font-size: 1.75rem;
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 h2 {
@@ -427,6 +427,14 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 var(--rhythm);
+}
+header h1 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+header h1 a {
+  text-decoration: none;
+  color: var(--accentBlue50) !important;
 }
 
 /* =============
