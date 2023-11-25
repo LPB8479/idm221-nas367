@@ -32,7 +32,7 @@
   --accentBlue80: #a8b3f0;
   --accentBlue90: #d4d9f7;
   /*other*/
-  --rhythm: 0.5rem;
+  --rhythm: 1.5rem;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -362,6 +362,10 @@ ul.blankList {
   list-style: none;
 }
 
+section {
+  padding: 0 var(--rhythm);
+}
+
 /* =============
     Typography
 ============= */
@@ -383,31 +387,55 @@ a:active, a:hover {
 
 p {
   font-family: "Open Sans";
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: 400;
+}
+p.year {
+  font-weight: 300;
+  font-size: 0.875rem;
 }
 
 h1 {
   font-family: "Open Sans";
-  font-size: 1.75 rem;
+  font-size: 1.75rem;
   font-weight: 800;
 }
 
 h2 {
   font-family: "Open Sans";
-  font-size: 1.25 rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 h3 {
   font-family: "Open Sans";
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 /* =============
     Header
 ============= */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 var(--rhythm);
+}
+
 /* =============
     Footer
 ============= */
+/* =============
+    Work Pages
+============= */
+.title {
+  text-align: center;
+  margin: 0;
+}

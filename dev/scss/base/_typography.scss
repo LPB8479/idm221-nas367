@@ -11,25 +11,30 @@ a:active, a:hover{color: var(--accentBlue70);}
 p{
     font-family: 'Open Sans';
     //16px
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: 400;
+    &.year{
+        font-weight: 300;
+        //14px
+        font-size: 0.875rem;
+    }
 }
 
 h1{
     font-family: 'Open Sans';
     //28px
-    font-size: 1.75 rem;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 h2{
     font-family: 'Open Sans';
     //20px
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 h3{
     font-family: 'Open Sans';
     //16px
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: 600;
 }
