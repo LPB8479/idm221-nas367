@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Open Sans", sans-serif;
-  src: url(../../deploy/fonts/OpenSans-VariableFont.ttf);
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-VariableFont.ttf);
 }
 /* =============
     Variables
@@ -385,8 +385,11 @@ a:active, a:hover {
   color: var(--accentBlue70);
 }
 
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
 p {
-  font-family: "Open Sans";
   font-size: 1rem;
   font-weight: 400;
 }
@@ -396,19 +399,16 @@ p.year {
 }
 
 h1 {
-  font-family: "Open Sans";
   font-size: 1.5rem;
   font-weight: 700;
 }
 
 h2 {
-  font-family: "Open Sans";
   font-size: 1.25rem;
   font-weight: 700;
 }
 
 h3 {
-  font-family: "Open Sans";
   font-size: 1rem;
   font-weight: 600;
 }

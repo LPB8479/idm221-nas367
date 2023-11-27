@@ -8,8 +8,9 @@ a:link{color: var(--accentBlue60);}
 a:visited{color: var(--accentBlue50);}
 a:active, a:hover{color: var(--accentBlue70);}
 
+body { font-family: 'Open Sans', Helvetica, sans-serif; }
+
 p{
-    font-family: 'Open Sans';
     //16px
     font-size: 1rem;
     font-weight: 400;
@@ -21,19 +22,16 @@ p{
 }
 
 h1{
-    font-family: 'Open Sans';
     //24px
     font-size: 1.5rem;
     font-weight: 700;
 }
 h2{
-    font-family: 'Open Sans';
     //20px
     font-size: 1.25rem;
     font-weight: 700;
 }
 h3{
-    font-family: 'Open Sans';
     //16px
     font-size: 1rem;
     font-weight: 600;
