@@ -8,6 +8,19 @@ ul.blankList{
     padding: 0;
     list-style: none;
 }
-section{
+img{
+    width: 100%;
+}
+.title {
+    text-align: center;
+    margin: 0;
+}
+section {
     padding: 0 var(--rhythm);
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: var(--rhythm);
 }
