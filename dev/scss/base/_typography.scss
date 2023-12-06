@@ -3,6 +3,7 @@
 ============= */
 * {
     color: var(--lightModePrimary);
+    line-height: 1.4;
 }
 a:link{color: var(--accentBlue60);}
 a:visited{color: var(--accentBlue50);}
@@ -35,4 +36,8 @@ h3{
     //16px
     font-size: 1rem;
     font-weight: 600;
+}
+.noLink > a{
+    color: var(--lightModePrimary) !important;
+    text-decoration: none;
 }

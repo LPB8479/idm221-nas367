@@ -362,6 +362,10 @@ ul.blankList {
   list-style: none;
 }
 
+.bulletFix {
+  list-style-type: disc !important;
+}
+
 img {
   width: 100%;
 }
@@ -394,6 +398,7 @@ section {
 ============= */
 * {
   color: var(--lightModePrimary);
+  line-height: 1.4;
 }
 
 a:link {
@@ -436,6 +441,11 @@ h3 {
   font-weight: 600;
 }
 
+.noLink > a {
+  color: var(--lightModePrimary) !important;
+  text-decoration: none;
+}
+
 /* =============
     Header
 ============= */
@@ -463,3 +473,6 @@ header h1 a {
 /* =============
     Footer
 ============= */
+footer {
+  text-align: center;
+}
