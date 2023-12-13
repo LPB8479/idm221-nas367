@@ -357,9 +357,9 @@ template {
 }
 
 ul.blankList {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .bulletFix {
@@ -371,15 +371,15 @@ img {
 }
 
 .title {
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 section {
-  padding: 0 var(--rhythm);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 var(--rhythm);
 }
 
 .gallery {
@@ -450,24 +450,24 @@ h3 {
     Header
 ============= */
 header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 0 var(--rhythm);
 }
 header h1 {
-  font-weight: 800;
   font-size: 1.875rem;
+  font-weight: 800;
 }
 header h1 a {
-  text-decoration: none;
   color: var(--accentBlue50) !important;
+  text-decoration: none;
 }
 
 /* =============

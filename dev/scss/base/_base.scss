@@ -4,25 +4,24 @@
 * {box-sizing: border-box;}
 
 ul.blankList{
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 .bulletFix{
     list-style-type: disc !important;
 }
 
-//list-style-type
 img{
     width: 100%;
 }
 .title {
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 section {
-    padding: 0 var(--rhythm);
     align-items: center;
+    padding: 0 var(--rhythm);
 }
 .gallery{
     display: flex;
