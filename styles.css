@@ -393,6 +393,58 @@ section {
   gap: var(--rhythm);
 }
 
+.mainGallery {
+  margin-top: var(--rhythm);
+}
+.mainGallery a {
+  aspect-ratio: 1;
+  background-color: #fff;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  background-repeat: no-repeat;
+}
+.mainGallery a:first-child {
+  background-image: url(assets/dcbaltimore.jpg);
+  background-size: 400%;
+  background-position: 40% 60%;
+}
+.mainGallery a:nth-child(2) {
+  background-image: url(assets/fontposter.jpg);
+  background-size: 110%;
+  background-position: 20% 40%;
+}
+.mainGallery a:nth-child(3) {
+  background-image: url(assets/flamethumbnail.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mainGallery a:nth-child(4) {
+  background-image: url(assets/logopicclrtext.png);
+  background-size: contain;
+  background-position: center;
+}
+.mainGallery a:nth-child(5) {
+  background-image: url(assets/amtkhome.png);
+  background-size: cover;
+  background-position: center;
+}
+.mainGallery a:nth-child(6) {
+  background-image: url(assets/chairposter.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mainGallery a:nth-child(7) {
+  background-image: url(assets/phillyrrphoto1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mainGallery a:nth-child(8) {
+  background-image: url(assets/smegproductpage.png);
+  background-size: cover;
+  background-position: center;
+}
+
 /* =============
     Typography
 ============= */
