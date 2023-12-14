@@ -1,6 +1,9 @@
 /* =============
     Base
 ============= */
+body{
+    background-color: var(--lightModeBkg);
+}
 * {box-sizing: border-box;}
 
 ul.blankList{

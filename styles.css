@@ -6,7 +6,7 @@
     Variables
 ============= */
 :root {
-  --lightModeBkg: #f5f4f1;
+  --lightModeBkg: white;
   --lightModePrimary: #2b2d2f;
   --darkModeBkg: #212121;
   --darkModePrimary: white;
@@ -351,6 +351,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--lightModeBkg);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
