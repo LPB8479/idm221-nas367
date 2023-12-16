@@ -21,6 +21,14 @@ header {
                     text-decoration: none;
                 }
             }
+            & i{
+                padding: 10px;
+                border: 1px solid #CCC;
+                border-radius: 10px;
+            }
+            &:hover{
+                cursor:pointer;
+            }
         }
     }
 }

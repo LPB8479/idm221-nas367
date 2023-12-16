@@ -583,6 +583,14 @@ header div section h1 a {
   color: var(--accentBlue50) !important;
   text-decoration: none;
 }
+header div section i {
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+header div section:hover {
+  cursor: pointer;
+}
 
 /* =============
     Footer
