@@ -1,3 +1,26 @@
 /* =============
     Navigation
 ============= */
+nav {
+    display: flex;
+    flex-direction: column;;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-top: -20px;
+    justify-content: space-between;
+    gap: calc(var(--rhythm)*1.5);
+    padding-top: 10px;
+    & a{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    & a.navHeader{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    margin-bottom: 100px;
+}
+.dont-show-menu{
+    display: none !important;
+}
