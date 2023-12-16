@@ -410,6 +410,11 @@ ul.blankList {
 img {
   width: 100%;
 }
+img.headshot {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
 
 .title {
   margin: 0;
