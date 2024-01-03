@@ -38,6 +38,7 @@ section {
 }
 .mainGallery {
     margin-top: var(--rhythm);
+    padding: 0 !important;
     & a {
         aspect-ratio: 1;
         background-color: #fff;

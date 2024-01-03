@@ -446,6 +446,7 @@ section {
 
 .mainGallery {
   margin-top: var(--rhythm);
+  padding: 0 !important;
 }
 .mainGallery a {
   aspect-ratio: 1;
