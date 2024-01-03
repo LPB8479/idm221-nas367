@@ -39,6 +39,15 @@
     Navigation
 ============= */
 nav {
+  margin-bottom: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav > ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,22 +57,18 @@ nav {
           flex-direction: column;
   width: 100%;
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: -20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: calc(var(--rhythm) * 1.5);
   padding-top: 10px;
-  margin-bottom: 100px;
 }
-nav a {
+nav > ul a {
   font-size: 1rem;
   font-weight: 400;
 }
-nav a.navHeader {
+nav > ul a.navHeader {
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -539,7 +544,7 @@ h3 {
   font-weight: 600;
 }
 
-.noLink > a {
+.noLink a {
   color: var(--lightModePrimary) !important;
   text-decoration: none;
 }
@@ -558,9 +563,9 @@ header div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header div section {
   -webkit-box-align: center !important;
@@ -598,4 +603,10 @@ header div section:hover {
 footer {
   text-align: center;
   margin-top: var(--rhythm);
+}
+footer img {
+  height: 22px !important;
+  width: 22px !important;
+  margin-left: 3px;
+  vertical-align: text-bottom;
 }
